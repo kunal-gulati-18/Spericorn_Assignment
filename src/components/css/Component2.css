@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  .delete_button
+  {
+    padding:5px;
+    background-color:#C00000 ;
+    color: white;
+    cursor: pointer;
+  }
+
+  .delete_button:hover{
+
+    transition: 0.3s ease-out;
+    background-color: lightgray;
+  }
+
+
+  .edit_style
+  {
+    background-color: darkblue;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .edit_style:hover{
+    transition: 0.3s ease-out;
+    background-color: lightgray;
+  }

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.component1
+{
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 1em;
+    min-width: 400px;
+    max-width: 550px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+.component1_fields
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.2em;
+}
+
+input[type=text],input[type=email] ,select {
+ 
+    padding: 5px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+
+
+  input[type="text"]:focus{
+    transition: 0.3s ease-in;
+  }
+
+
+  img{
+      border-radius: 20px;
+      box-shadow: 0px 2px 4px 3px lightgrey;
+      margin-bottom: 1em;
+  }
+
+  img:hover{
+      transition: 0.3s ease-out;
+    transform:scale(1.05)
+  }
+
+  .upload_button
+  {
+        padding: 10px;
+        background-color: darkblue;
+        color: white;
+        cursor: pointer;
+        margin-top: 5px!important;
+  }
+
+  .upload_button:hover{
+
+        transition: 0.3s ease-out;
+        background-color: lightgray;
+        
+  }
+  
+
+  .submit_button
+  {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px!important;
+  }
+
+  .submit_button:hover{
+    transition: 0.3s ease-out;
+    background-color: #dddddd;
+  }
+  
+
